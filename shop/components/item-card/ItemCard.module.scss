@@ -1,0 +1,30 @@
+.carCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background: #a2a2a2;
+}
+
+.carImage {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.carIitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carYear,
+.carPrice,
+.carColor,
+.carMileage,
+.carTransmission {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
